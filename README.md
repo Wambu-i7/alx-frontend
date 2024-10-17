@@ -10,9 +10,7 @@ Open your file in your browser (the page should be blank)
 Create the head and body sections
 
 inside the html tag, create the head and body tags (empty) in this order
-W3C won’t pass - you can ignore it
 
-Repo:
 
 GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
