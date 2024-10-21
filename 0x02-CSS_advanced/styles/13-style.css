@@ -16,23 +16,23 @@ body {
 }
 
 /* Targeting only anchor elements that contain hyperlinks */
-a[href] {
-    color: blue; /* Example style */
-    text-decoration: none; /* Example style */
+a {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 /* Target the visited state for links */
-a[href]:visited {
+a:visited {
     font-style: italic; /* Italicize the text */
 }
 
 /* Target the hover state for links */
-a[href]:hover {
+a:hover {
     text-decoration: underline; /* Underline the links when hovering */
 }
 
 /* Target the active state for links */
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey); /* Set background color using the variable */
 }
 
