@@ -16,7 +16,7 @@ body {
 }
 
 /* Targeting only anchor elements that contain hyperlinks */
-a {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -28,12 +28,12 @@ a:visited {
 
 /* Target the hover state for links */
 a:hover {
-    text-decoration: underline; /* Underline the links when hovering */
+    text-decoration: underline;
 }
 
 /* Target the active state for links */
 a:active {
-    background-color: var(--color-light-grey); /* Set background color using the variable */
+    background-color: var(--color-light-grey);
 }
 
 /* Hide all elements with the class visually-hidden */
