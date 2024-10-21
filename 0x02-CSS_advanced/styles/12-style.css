@@ -30,12 +30,13 @@ a {
 .section-header {
     text-align: var(--section-header-align);
   }
-/* Set the styles on the section title */
+
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
+    margin: var(--section-title-margin); 
     color: var(--section-title-color);
 }
 /* Set the foreground color for elements with the class section-tagline */
@@ -69,8 +70,7 @@ a {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: black;
-
+    --section-title-color: color-black;
 
 }
 
