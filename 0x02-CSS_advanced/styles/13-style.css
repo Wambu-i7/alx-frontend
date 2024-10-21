@@ -12,7 +12,7 @@ body {
 }
 
 /* Set the foreground color for all anchor elements */
-a {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
