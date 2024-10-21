@@ -85,7 +85,7 @@ a:active {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-
+    --color-light-grey: #d3d3d3;
 }
 
 /* Targeting all 6 levels of section headings (h1 to h6) */
