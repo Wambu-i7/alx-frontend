@@ -22,17 +22,17 @@ a[href] {
 }
 
 /* Target the visited state for links */
-a:visited {
+a[href]:visited {
     font-style: italic; /* Italicize the text */
 }
 
 /* Target the hover state for links */
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
 /* Target the active state for links */
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 
