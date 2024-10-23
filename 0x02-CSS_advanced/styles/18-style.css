@@ -1,5 +1,5 @@
 /* A universal box-sizing rule */
-* {
+*, *:before, *:after {
     box-sizing: border-box;
   }
   
