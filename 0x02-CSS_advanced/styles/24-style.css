@@ -106,6 +106,7 @@ a:active {
 .card-services a:hover {
     color: var(--color-white); /* Set foreground color on hover */
     background-color: var(--color-primary); /* Set background color on hover */
+    text-decoration: none;
 }
 
 
