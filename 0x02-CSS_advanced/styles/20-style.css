@@ -113,10 +113,12 @@ ul.row {
     padding: 0;
     list-style: none;
 }
-.row + .new-row {
+.row::after {
+    content: "";
     display: table;
-    clear: both;
+    clear: both; /* Prevents floating elements on either side */
 }
+
 
 
 .col-1-3 {
