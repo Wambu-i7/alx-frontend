@@ -66,7 +66,7 @@ a:active {
   
 .nav .nav-link {
     display: block;
-    padding: calc(0.5 * var(--root-element)) var(--root-element); /* Padding: half of the root element for top and bottom, equal to the root element for left and right */
+    padding: 0.5rem;/* Padding: half of the root element for top and bottom, equal to the root element for left and right */
 }
 
 /* Nav link hover state */
