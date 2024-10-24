@@ -96,7 +96,7 @@ a:active {
     left: 0; /* Set horizontal position to 0 */
     background-color: var(--color-white); /* Set background color to color-white */
     width: 0; /* Set width to 0 */
-    height: 20%; /* Set height to 20% of the root element */
+    height: 0.2rem; /* Set height to 20% of the root element */
 }
 
 .nav .nav-item:hover .nav-link::before {
