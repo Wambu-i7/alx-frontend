@@ -11,12 +11,8 @@ body {
     line-height: var(--line-height-base);
 }
 
-:root {
-    --color-light-grey: #d3d3d3; /* Define your light grey color */
-}
-
 /* Targeting only anchor elements that contain hyperlinks */
-a {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
