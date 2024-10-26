@@ -316,12 +316,12 @@ template
 .footer {
     padding: var(--footer-padding);
 }
-ul.footer{
+.footer ul{
     text-align: right;
 }
 
 .footer-copyright{
-    margin: none;
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
