@@ -338,7 +338,7 @@ ul.footer{
     display: block; /* Render as a block element */
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color); /* Use the text-color variable for the fill */
 }
 
