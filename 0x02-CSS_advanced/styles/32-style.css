@@ -49,6 +49,7 @@ a:active {
     color: var(--button-hover-color); /* Set foreground color on hover using button-hover-color variable */
     text-decoration: var(--button-hover-text-decoration); /* Set text decoration on hover using button-hover-text-decoration variable */
     background: var(--button-hover-background); /* Set background on hover using button-hover-background variable */
+    transition-duration: var(--transition-duration);
 }
 
 /* Hide all elements with the class visually-hidden */
@@ -97,6 +98,7 @@ a:active {
     background-color: var(--color-white); /* Set background color to color-white */
     width: 0; /* Set width to 0 */
     height: 0.2rem; /* Set height to 20% of the root element */
+    transition: all var(–transition-duration) var(transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
